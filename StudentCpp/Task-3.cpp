@@ -20,11 +20,11 @@ int main()
 		{
 			if (a > b)
 			{
-				cout << b << " No it's not Bolishe" << endl;
+				cout << b << " No it's not, more" << endl;
 			}
 			else
 			{
-				cout << b << " No it's not Menishe" << endl;
+				cout << b << " No it's not ,less" << endl;
 			}
 			cout << "Enter a number prefix" << endl;
 			cin >> b;
