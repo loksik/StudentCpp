@@ -1,17 +1,24 @@
-#include "pch.h"
 #include<iostream>
-#include <string>
 
 using namespace std;
 
 int main()
 {
-	string name, age;
+	char name[255];
+	int  age, year, month, day;
 	cout << "what is your name? " << endl;
 	cin >> name;
 	cout << "what year, month and day were you born?" << endl;
-	cin >> age;
-	cout << "Hello , " << name << " You're " << age << " year month day." << endl;
+	cin >> year, month, day;
+	if ((day > 20) and (month = 12) and (year >= 2000))
+	{
+		age=(2017-year);
+	}
+	else
+	{
+		age=(2018-year);
+	}
+	cout << "Hello , " << name << " You're " << age << " ." << endl;
 	system("PAUSE");
 	return 0;
 }
