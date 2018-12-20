@@ -24,15 +24,15 @@ int main()
 	}
 	else
 	{
-		cout << "Is the number even? Yes" << endl;
+		cout << "Is the number positive? No" << endl;
 	}
 	if (b) 
 	{
-		cout << "Is the number positive? No" << endl;
+		cout << "Is the number even? No" << endl;
 	}
 	else
 	{
-		cout << "Is the number even? No" << endl;
+		cout << "Is the number even? Yes" << endl;
 	}
 	if (c)
 	{
@@ -41,7 +41,7 @@ int main()
 	}
 	else
 	{
-		cout << "Is the number even? No" << endl;
+		cout << "Is the remainder of the division by 5 ? No" << endl;
 	}
 	if (d)
 	{
