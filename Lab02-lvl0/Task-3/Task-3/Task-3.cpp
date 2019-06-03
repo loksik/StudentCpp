@@ -23,6 +23,7 @@ bool isExceeded(int numToCalculateFactorial, int& stepNumber)
 
 int main()
 {
+	setlocale(LC_ALL, "rus");
 	int numToCalculateFactorial, stepNumber;
 	cout << "Введите число для расчета факториала: ";
 	cin >> numToCalculateFactorial;
@@ -42,7 +43,6 @@ int main()
 			cout << "Факториал превысил значение? НЕТ\nФакториал рарен со сравнивнимым числом!" << endl;
 		}
 	}
-	setlocale(LC_ALL, "ru");
 	system("PAUSE");
 	return 0;
 }
